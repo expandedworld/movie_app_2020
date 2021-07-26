@@ -1,0 +1,39 @@
+.wrapper {
+  margin-bottom: 100px;
+}
+
+.poster {
+  display: block;
+  margin: 20px auto;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.year {
+  text-align: center;
+  font-weight: 500;
+}
+
+.genres ul {
+  text-align: center;
+  padding: 0;
+}
+
+.genres ul li {
+  display: inline-block;
+  padding: 8px;
+}
+
+.summary {
+  margin: 20px;
+}
+
+@media screen and (max-width: 1090px) {
+  .movies {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
